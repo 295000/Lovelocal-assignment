@@ -59,7 +59,7 @@
 
  
 
-// =====================    3   ========================
+// =====================    2   ========================
 
 // Given an integer numRows, return the first numRows of Pascal's triangle.
 // In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
@@ -94,7 +94,11 @@
 // // Sc:O👎
 
 
-// ===========    4    ==================
+// ===========    3    ==================
+
+// Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+
+
 // function majorityEle(nums) {
 //   let count1 = 0, count2 = 0;
 //   let candidate1 = null, candidate2 = null;
@@ -148,7 +152,10 @@
 // console.log(majorityEle(nums3)); // Output: [1, 2]
 
 
-// ----------------------  5------------------------------------
+// ================   4    ==============================
+// You are given a string s. You can convert s to a 
+// palindrome by adding characters in front of it.
+// Return the shortest palindrome you can find by performing this transformation.
 
 // function Palindrome(s) {
 //   let i = 0, j = s.length - 1;
